@@ -1,47 +1,38 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"  crossorigin="anonymous"  />
+  <link rel="stylesheet" href="style.css" />
+  <title>Meu portfólio</title>
 </head>
 <body>
-    <header>
-        <h1>Olá, sou Larissa Felski!</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Tenho 17 anos, faço ensino médio com qualificação em tecnologia, curso Técnico em Informática há 11 meses. Conheci essa área através da minha escola e de uma excelente professora. Estou me arriscando na programação, mas minha área dos sonhos é eletrônica, mecânica, elétrica e automação.</p>
-        <img src="img/fotolarissa.jpg" alt="Foto de Larissa Felski">
-    </section>
-
-    <section id="projetos">
-        <h2>Projetos</h2>
-        <div class="projeto">
-            <h3>Criação de Robô</h3>
-            <p>No 2º ano do ensino médio de 2022, fui desafiada pela minha professora a criar um robô utilizando Arduino e linguagem C++. O projeto foi dividido em duas partes: primeiro, robô com sensor óptico coordenado pela cor preta influenciando na direção do carrinho; e o segundo, robô com sensor de distância, impedindo que o robô batesse em paredes.</p>
-            <img src="img/infravermelho.jpg" alt="Sensor infravermelho">
-            <img src="img/distancia.jpg" alt="Sensor de distância">
+  <header class="container text-center ">
+    <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150" srcset="">
+    <p class="lead">Eu sou Fernanda_</p>
+     <h1>Eu ensino Programação</h1>
+    <p>Sou Engenheira de Computação e Pedagoga. Ensino pensamento computacional para estudantes do Ensino Fundamental e Médio. Ensino sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos que já desenvolvi</p>
+    <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
         </div>
-    </section>
-
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Email: larifelski@gmail.com</p>
-        <p>Telefone: (51) 99429-9939</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Larissa Felski</p>
-    </footer>
-</body>
-</html>
+</header>
+    <main class="container">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <div class="col-md-4"></div>
+                <div class="card" >
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma lista dos meus livros favoritos, incluindo informações sobre os autores, datas de publicação e links para compra na Amazon. A página é estilizada com CSS para uma visualização agradável e usa fontes externas do Google Fonts.</p>
+                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                    </div>
+                </div>
+        </div>
+        
